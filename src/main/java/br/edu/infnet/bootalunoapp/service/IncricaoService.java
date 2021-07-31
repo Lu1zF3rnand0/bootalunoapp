@@ -25,6 +25,7 @@ public class IncricaoService {
 		turma.getAlunos().add(aluno);
 		alunoRepo.save(aluno);
 		turmaRepo.save(turma);
+		
 	}
 
 }
