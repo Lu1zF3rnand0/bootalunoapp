@@ -24,7 +24,7 @@ public class IncricaoService {
 	public void inscrever(Aluno aluno, Turma turma) {
 		turma.getAlunos().add(aluno);
 		alunoRepo.save(aluno);
-		//turmaRepo.save(turma);
+		turmaRepo.save(turma);
 	}
 
 }
