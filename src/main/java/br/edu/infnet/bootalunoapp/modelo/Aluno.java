@@ -17,8 +17,8 @@ public class Aluno {
 	
 	private String email;
 	
-	public Aluno() {
-	}
+//	public Aluno() {
+//	}
 	
 	public Aluno(String nome) {
 		this.nome = nome;
